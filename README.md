@@ -1,23 +1,18 @@
-# Exonontom Tech
-## Exonontom Tech API
-Exonontom Tech API Is designed to receive Webhook Events from Discord, the source code is currently set to Private, as it is still undergoing major development changes every day.
-The lead developer of the project is `Discord: @.exonontom`.
+# Exonontom Tech API
+The Exonontom Tech API is designed to process Webhook Events from Discord. Currently, the source code is private, as it undergoes continuous development with major changes each day.
+The lead developer of this project is `@exonontom on Discord.` If you're interested in contributing, you can contact them directly. Applications for development participation are always open unless announced otherwise, and major updates will be communicated via the Discord server.
+# Project Evolution
+Originally, Exonontom Tech API was developed to support a Discord bot with the `/bmt (Basic Military Training)` command. This command required a whole number interval argument ranging from 1 to 10,000,000,000 (Roblox User ID). The bot would promote users within a specific Roblox group, shifting them from `rank 12` (Recruit) to `13` (Private)—provided they held the necessary Discord role.
+Today, Exonontom Tech API functions primarily as a Discord Webhook Endpoint Handler. All bot-related webhook data from @exonontom is directed to a private endpoint. A public webhook endpoint will soon be available at:
+`https://exonontom-tech-api.vercel.io/api/v1/public`
+Public webhooks can be sent here, though additional endpoints may be introduced for specific use cases.
 
-If you wish to partake in the development of Exonontom Tech API, contact the Lead Developer, `@.exonontom`.
-Applications are always open unless announced otherwise, Exonontom will announce any major changes to the Discord Server.
+# License
+## Copyright (c) 2025 Exonontom Tech API
+Permission is granted to any individual obtaining a copy of this software and its associated documentation (the "Software") to use and share it freely, under the following conditions:
+- ** No False Attribution ** – Users must not claim authorship of the Software or represent it as their own work.
+- ** Non-Commercial Use ** – The Software may not be sold or used for commercial purposes without explicit permission from the original author.
+- ** Modification & Distribution ** – Users may modify and distribute the Software, provided the original author is credited and a reference to this license is included.
+- ** Disclaimer ** – The Software is provided "as is", without warranty of any kind, whether express or implied.
 
-The ET API was originally developed for the intent of creating a Discord bot with a command `/bmt` (basic military training) which had a required whole number interval argument which ranged in between 1 and 10000000000. (Roblox User ID), the input user ID would've been promoted in a certain Roblox group from rank id `12` (Recruit) to `13` (Private). Although you were required to have a certain Discord role in order to use the command.
-
-Exonontom Tech API is now  a Discord Webhook Endpoint Handler. All of @.exonontom's bot webhooks will be sent to the private webhook url.
-The Public endpoint will be sent soon, it will look something like `https://exonontom-tech-api.vercel.io/api/v1/public`. Public webhooks **may** be sent here, otherwise they will be sent to another endpoint.
-
-## Copyright (c) 2025 [Exonontom Tech API]
-
-Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to use and share the Software freely, subject to the following conditions:
-
-1. Users **may not** claim authorship of the Software or present it as their own work.
-2. This Software **may not** be sold or used for commercial purposes without explicit permission from the original author.
-3. Users **may** modify and distribute the Software, provided that the original author is credited and a reference to this license is included.
-4. This Software is provided **"as is"**, without warranty of any kind, express or implied.
-
-By using this Software, you agree to these terms.
+***By using this Software, you agree to these terms.***
