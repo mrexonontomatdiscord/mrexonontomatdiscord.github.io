@@ -4,3 +4,4 @@ Exonontom Tech API Is designed to receive Webhook Events from Discord, the sourc
 The lead developer of the project is `Discord: @.exonontom`.
 
 If you wish to partake in the development of Exonontom Tech API, contact the Lead Developer, `@.exonontom`.
+Applications are always open unless announced otherwise, Exonontom will announce any major changes to the Discord Server.
